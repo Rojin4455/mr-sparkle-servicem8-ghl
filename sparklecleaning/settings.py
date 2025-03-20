@@ -35,7 +35,7 @@ ALLOWED_HOSTS = [
     'localhost',
     '127.0.0.1',
     '16.16.128.154',
-    "0015-2401-4900-8825-7bac-9cd9-150d-de32-bc45.ngrok-free.app"
+    "0015-2401-4900-8825-7bac-9cd9-150d-de32-bc45.ngrok-free.app",
     "webhook.mrsparklewindowcleaning.com.au"
 ]
 
