@@ -143,5 +143,7 @@ def servicem8_webhook2(request):
             log_entry.stack_trace = traceback.format_exc()
             log_entry.save()
             return JsonResponse({'status': 'success', 'message': str(e)}, status=200)
+    return JsonResponse({'status': 'error', 'message': 'Method not allowed'}, status=200)
+
 
 
